@@ -1,0 +1,22 @@
+ul,
+ul li {
+  list-style: none;
+}
+.genres {
+  text-align: center;
+  width: 66px;
+  height: 18px;
+  font-size: 10px;
+  line-height: 14px;
+  background-color: rgba(221, 216, 216, 0.65);
+  font-weight: 400;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  color: rgba(51, 49, 49, 0.65);
+}
+ul.genres-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  max-width: 250px;
+  gap: 10px;
+}

@@ -1,0 +1,29 @@
+.input-search {
+  width: 938px;
+  height: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: linear-gradient(0deg, #d9d9d9, #d9d9d9);
+  background-clip: padding-box;
+  border: 1px solid rgba(217, 217, 217, 1);
+  border-radius: 0.25rem;
+}
+.input-search::placeholder {
+  color: rgba(0, 0, 0, 0.25);
+}
+.input-search:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: rgba(24, 144, 255, 1);
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgb(214, 231, 247);
+}
+
+
+@media screen  and (width <= 996px) {
+  .input-search{
+    width: 338px;
+
+  }
+}

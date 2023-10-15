@@ -1,0 +1,60 @@
+.movies-item {
+  width: 451px;
+  height: 279px;
+  box-shadow: 0px 4px 12px 0px #00000026;
+}
+
+.poster-image {
+  width: 183px;
+  height: 281px;
+  float: left;
+}
+
+.movies-description {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 250px;
+  height: 100%;
+}
+
+.title {
+  padding-top: 10px;
+  font-size: 15px;
+  line-height: 28px;
+}
+.release-data {
+  color: rgba(130, 126, 126, 1);
+
+  font-size: 12px;
+  line-height: 22px;
+}
+.overview {
+  padding-top: 10px;
+  font-size: 12px;
+  line-height: 22px;
+  width: 228px;
+  height: 120px;
+}
+
+.movies-description__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.give-rating {
+  margin-bottom: 10px;
+}
+
+@media screen and (width <= 996px) {
+  .poster-image {
+    width: 60px;
+    height: 91px;
+  }
+  .movies-item {
+    width: 388px;
+    height: 245px;
+  }
+}
